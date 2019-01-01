@@ -22,6 +22,10 @@ build_script:
 
     call 7z x  -y -r ffmpeg_dependancies.zip
 
+    set FFMPEG %cd%\ffmpeg\ffmpeg
+
+    echo "FFMPEG DIR:%FFMPEG%" 
+
     git clone keybase://private/kenkit/gui_project --recursive
 
     cd gui_project
