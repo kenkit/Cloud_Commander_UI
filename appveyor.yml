@@ -14,7 +14,7 @@ build_script:
     
     set PATH=%PATH%;%localappdata%\Keybase\
 
-    Keybase\keybase -v
+    keybase -v
 
     echo "loging in to keybase"
 
