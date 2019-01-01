@@ -10,7 +10,9 @@ build_script:
 
     start /wait msiexec.exe /i keybase_setup_amd64.msi   /quiet /l*v keybase.log
 
-    type keybase.log
+    REM type keybase.log
+    
+    set PATH=%PATH%;%localappdata%\Keybase\
 
     %localappdata%\Keybase\keybase.exe -v
 
