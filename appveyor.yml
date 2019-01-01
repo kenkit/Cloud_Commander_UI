@@ -34,6 +34,8 @@ build_script:
 
     set OGRE_HOME=%cd%\OGRE
 
+    set SDL2_DIR=%OGRE_HOME%\build\sdk\ogredepscmake
+
     echo "Ogre:%OGRE_DIR%"
 
     cmake ../
