@@ -38,6 +38,10 @@ build_script:
 
     echo "Ogre:%OGRE_DIR%"
 
+    vcpkg install boost:x86-windows
+
+    vcpkg install ffmpeg:x86-windows
+
     cmake ../
     
     cmake --build ../build
