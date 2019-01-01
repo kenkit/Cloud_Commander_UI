@@ -30,7 +30,7 @@ build_script:
     
     mkdir OGRE
 
-    set OGRE_DIR=%cd%\OGRE
+    set OGRE_DIR=%cd%\OGRE\build\sdk\CMake
 
     set OGRE_HOME =%cd%\OGRE
 
