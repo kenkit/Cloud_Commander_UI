@@ -38,10 +38,6 @@ build_script:
 
     echo "Ogre:%OGRE_DIR%"
 
-    vcpkg install ffmpeg:x86-windows
-
-    vcpkg integrate install
-
     cmake ../-DBOOST_ROOT=C:\Libraries\boost_1_67_0
     
     cmake --build ../build
