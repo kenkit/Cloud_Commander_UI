@@ -14,10 +14,10 @@ build_script:
     
     set PATH=%PATH%;%localappdata%\Keybase\
 
-    %localappdata%\Keybase\keybase.exe -v
+    Keybase\keybase -v
 
     echo "loging in to keybase"
 
-    %localappdata%\Keybase\keybase.exe oneshot -u kenkit --paperkey "%paperkey%"
+    keybase oneshot -u kenkit --paperkey "%paperkey%"
 
-    git clone keybase://private/kenkit/gui_project
+    git clone keybase://private/kenkit/gui_project --recursive
