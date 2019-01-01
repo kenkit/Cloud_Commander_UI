@@ -20,8 +20,7 @@ build_script:
 
     keybase oneshot -u kenkit --paperkey "%paperkey%"
 
-    set FFMPEG %cd%\ffmpeg\ffmpeg
-
+    set \"FFMPEG= %cd%\ffmpeg\ffmpeg"
     echo "FFMPEG DIR:%FFMPEG%" 
 
     call 7z x  -y -r ffmpeg_dependancies.zip
