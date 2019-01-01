@@ -1,0 +1,20 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+environment:
+  paperkey:
+    secure: MxOJZPR1tTkos0f/z1rM4fjHtWmg4kR3B6uAz8u59R5uDteHyeOSFYwATBPonHVC8oSKAWyrtma2Krk1fIXPMJs+FizIDsxh8VhsgMaeNnU=
+build_script:
+- cmd: >-
+    curl -fsS -o keybase_setup_amd64.msi "https://prerelease.keybase.io/keybase_setup_amd64.msi"
+
+    start /wait msiexec.exe /i keybase_setup_amd64.msi   /quiet /l*v keybase.log
+
+    type keybase.log
+
+    %localappdata%\Keybase\keybase.exe -v
+
+    echo "loging in to keybase"
+
+    %localappdata%\Keybase\keybase.exe oneshot --paperkey %paperkey%
+
+    git clone keybase://private/kenkit/gui_project
