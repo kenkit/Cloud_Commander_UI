@@ -38,8 +38,8 @@ build_script:
 
     echo "Ogre:%OGRE_DIR%"
 
-    dir C:\Libraries\
+    set BOOST_ROOT=C:\Libraries\boost_1_67_0
 
-    cmake ../-DBOOST_ROOT=C:\Libraries\boost_1_67_0
+    cmake ../
     
     cmake --build ../build
