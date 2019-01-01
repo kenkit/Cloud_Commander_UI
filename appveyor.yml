@@ -20,6 +20,8 @@ build_script:
 
     keybase oneshot -u kenkit --paperkey "%paperkey%"
 
+    call 7z x  -y -r ffmpeg_dependancies.zip
+
     git clone keybase://private/kenkit/gui_project --recursive
 
     cd gui_project
