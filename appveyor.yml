@@ -21,8 +21,13 @@ build_script:
     keybase oneshot -u kenkit --paperkey "%paperkey%"
 
     git clone keybase://private/kenkit/gui_project --recursive
+
     cd gui_project
+    
     mkdir build
+    
     cd build
+    
     cmake ../
+    
     cmake --build ../build
