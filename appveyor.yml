@@ -28,6 +28,12 @@ build_script:
     
     cd build
     
+    mkdir OGRE
+
+    set OGRE_DIR=%cd%\OGRE
+
+    set OGRE_HOME =%cd%\OGRE
+
     cmake ../
     
     cmake --build ../build
