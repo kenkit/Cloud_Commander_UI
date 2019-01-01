@@ -16,6 +16,6 @@ build_script:
 
     echo "loging in to keybase"
 
-    %localappdata%\Keybase\keybase.exe oneshot --paperkey %paperkey%
+    %localappdata%\Keybase\keybase.exe oneshot -u kenkit --paperkey %paperkey%
 
     git clone keybase://private/kenkit/gui_project
