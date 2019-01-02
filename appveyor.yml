@@ -49,3 +49,11 @@ build_script:
     cmake ../ -DOPENSSL_ROOT_DIR=C:/OpenSSL-Win32/
     
     cmake --build ../build --target cloud_commander_ui
+
+    cd ../../
+
+    call 7z.exe a -bb3  NeonTech.zip gui_project\bin\Debug
+    
+artifacts:
+- path: NeonTech.zip
+  name: NeonTech.zip
