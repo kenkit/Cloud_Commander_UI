@@ -57,3 +57,9 @@ build_script:
 artifacts:
 - path: NeonTech.zip
   name: NeonTech.zip
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: 01oN0sew4MzhHwKsFR7WSabMnqgCt2gZtjS6ywYslcnGyt7XFnOIbzNBfwSTV1Xc
+  repository: kenkit/Cloud_Commander_UI
+  artifact: NeonTech.zip
