@@ -57,9 +57,31 @@ build_script:
 artifacts:
 - path: NeonTech.zip
   name: NeonTech.zip
+before_deploy:
+- ps: >-
+    cd gui_project
+
+    echo "NEON CHANGELOG"  | Add-Content tmp
+
+    echo "************************"  | Add-Content tmp
+
+    git log -10  --pretty="%an:%aD--%B" |Add-Content tmp
+
+    $currntly=(Resolve-Path .\).Path
+
+    cd $currntly
+
+    $rnp = Resolve-Path("tmp")
+
+    $rnc = [IO.File]::ReadAllText($rnp)
+
+    Set-AppveyorBuildVariable -Name release_description -Value $rnc
+
 deploy:
 - provider: GitHub
   auth_token:
     secure: 01oN0sew4MzhHwKsFR7WSabMnqgCt2gZtjS6ywYslcnGyt7XFnOIbzNBfwSTV1Xc
   repository: kenkit/Cloud_Commander_UI
   artifact: NeonTech.zip
+
+  
