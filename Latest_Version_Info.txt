@@ -1,3 +1,15 @@
+commit f2685bf8e69809c74debdd9530a9760752d0cb27
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 4 18:51:37 2019 +0300
+
+    Final
+
+commit c4295804997d71e68c0c967416f9eb13b05ef511
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 4 18:50:15 2019 +0300
+
+    This should work for now
+
 commit cf6db6b1a7b86761a0afadfc976d0263e1c492d2
 Author: Comet <kkituyi@hotmail.com>
 Date:   Fri Jan 4 17:38:41 2019 +0300
@@ -45,15 +57,3 @@ Author: Comet <kkituyi@hotmail.com>
 Date:   Mon Dec 31 00:35:00 2018 +0300
 
     Updates to core
-
-commit 19246161d10d5e0232fd369fd4ff0d3fb726f94c
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Dec 30 19:47:16 2018 +0300
-
-    Update code
-
-commit c2e03b190d3283fcc6b811ec9f7d698ab4756668
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Dec 30 19:29:20 2018 +0300
-
-    Fixups cmake
