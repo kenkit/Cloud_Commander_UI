@@ -1,0 +1,59 @@
+commit cf6db6b1a7b86761a0afadfc976d0263e1c492d2
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 4 17:38:41 2019 +0300
+
+    Typo
+
+commit 5c38e4832629bfe59c33d25cf3e0b679ded25262
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 4 17:32:01 2019 +0300
+
+    Add about page
+
+commit abc878dbe4cd3eb7a257d28fc684122fa42a7029
+Author: Comet <kkituyi@hotmail.com>
+Date:   Thu Jan 3 21:19:52 2019 +0300
+
+    Add auto versioning
+
+commit 7e46416bc7fff70f789805b5dbf9a3cc0d8b7867
+Author: Comet <kkituyi@hotmail.com>
+Date:   Thu Jan 3 21:14:35 2019 +0300
+
+    Add auto-versioning
+
+commit ffdd058276c1d6405f62b36efbb012fd8cebd7b2
+Author: Comet <kkituyi@hotmail.com>
+Date:   Thu Jan 3 00:42:53 2019 +0300
+
+    Fix appveyor openssl
+
+commit a8642eaaa57107fa34ed8afd5bd13405d7f3ce18
+Author: Comet <kkituyi@hotmail.com>
+Date:   Tue Jan 1 22:16:45 2019 +0300
+
+    Fixing release builds
+
+commit 6b438c19fbc16ac31844d79892c0b1e8b989fc18
+Author: Comet <kkituyi@hotmail.com>
+Date:   Tue Jan 1 22:14:50 2019 +0300
+
+    Fixing release builds
+
+commit 2c3bfdf01547b0d21fa43716c8351e995be13ce4
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Dec 31 00:35:00 2018 +0300
+
+    Updates to core
+
+commit 19246161d10d5e0232fd369fd4ff0d3fb726f94c
+Author: Comet <kkituyi@hotmail.com>
+Date:   Sun Dec 30 19:47:16 2018 +0300
+
+    Update code
+
+commit c2e03b190d3283fcc6b811ec9f7d698ab4756668
+Author: Comet <kkituyi@hotmail.com>
+Date:   Sun Dec 30 19:29:20 2018 +0300
+
+    Fixups cmake
