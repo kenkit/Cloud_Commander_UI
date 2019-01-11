@@ -1,3 +1,21 @@
+commit dc6a4271315140919c10eaa151640138e716f970
+Author: Comet <kkituyi@hotmail.com>
+Date:   Sat Jan 12 00:16:06 2019 +0300
+
+    typo
+
+commit 64cd21cb0fe70af223788bed9fc4f41fb0897141
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 11 23:51:41 2019 +0300
+
+    BUGS
+
+commit a16fc43487ec3540de6c811349deff265874d544
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 11 23:51:21 2019 +0300
+
+    BUGS
+
 commit 613f9acf0df94a9bd8c2f00cf87d955db48e7c37
 Author: Comet <kkituyi@hotmail.com>
 Date:   Fri Jan 11 01:37:44 2019 +0300
@@ -39,21 +57,3 @@ Author: Comet <kkituyi@hotmail.com>
 Date:   Fri Jan 4 17:38:41 2019 +0300
 
     Typo
-
-commit 5c38e4832629bfe59c33d25cf3e0b679ded25262
-Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 4 17:32:01 2019 +0300
-
-    Add about page
-
-commit abc878dbe4cd3eb7a257d28fc684122fa42a7029
-Author: Comet <kkituyi@hotmail.com>
-Date:   Thu Jan 3 21:19:52 2019 +0300
-
-    Add auto versioning
-
-commit 7e46416bc7fff70f789805b5dbf9a3cc0d8b7867
-Author: Comet <kkituyi@hotmail.com>
-Date:   Thu Jan 3 21:14:35 2019 +0300
-
-    Add auto-versioning
