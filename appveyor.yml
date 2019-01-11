@@ -8,6 +8,8 @@ build_script:
 - cmd: >-
     curl -fsS -o keybase_setup_amd64.msi "https://prerelease.keybase.io/keybase_setup_amd64.msi"
 
+    curl -fsS -o cef_binary_3.3578.1860.g36610bd_windows32.tar.bz2 "http://opensource.spotify.com/cefbuilds/cef_binary_3.3578.1860.g36610bd_windows32.tar.bz2"
+
     start /wait msiexec.exe /i keybase_setup_amd64.msi   /quiet /l*v keybase.log
 
     REM type keybase.log
@@ -25,6 +27,10 @@ build_script:
     echo "FFMPEG DIR:%FFMPEG%" 
 
     call 7z x  -y -r ffmpeg_dependancies.zip
+
+    call 7z x  -y -r "cef_binary_3.3578.1860.g36610bd_windows32.tar.bz2" && call 7z x  -y -r  "cef_binary_3.3578.1860.g36610bd_windows32.tar"
+
+    set CEF_ROOT=%cd%\cef_binary_3.3578.1860.g36610bd_windows32
 
     git clone keybase://private/kenkit/gui_project --recursive
 

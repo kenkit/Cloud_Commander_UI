@@ -1,3 +1,27 @@
+commit 613f9acf0df94a9bd8c2f00cf87d955db48e7c37
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 11 01:37:44 2019 +0300
+
+    c libs causing bugs
+
+commit b7e82e901353c23425a15cc562a240bc44eab04a
+Author: Comet <kkituyi@hotmail.com>
+Date:   Wed Jan 9 15:18:32 2019 +0300
+
+    fixups
+
+commit b1322c483318e1ffe705d55e08072207ce87f52b
+Author: Comet <kkituyi@hotmail.com>
+Date:   Wed Jan 9 15:08:40 2019 +0300
+
+    Implement cef browser
+
+commit 4c4da3c2948244749275543494293321f97ea919
+Author: Comet <kkituyi@hotmail.com>
+Date:   Fri Jan 4 21:32:12 2019 +0300
+
+    About:Fix author name
+
 commit f2685bf8e69809c74debdd9530a9760752d0cb27
 Author: Comet <kkituyi@hotmail.com>
 Date:   Fri Jan 4 18:51:37 2019 +0300
@@ -33,27 +57,3 @@ Author: Comet <kkituyi@hotmail.com>
 Date:   Thu Jan 3 21:14:35 2019 +0300
 
     Add auto-versioning
-
-commit ffdd058276c1d6405f62b36efbb012fd8cebd7b2
-Author: Comet <kkituyi@hotmail.com>
-Date:   Thu Jan 3 00:42:53 2019 +0300
-
-    Fix appveyor openssl
-
-commit a8642eaaa57107fa34ed8afd5bd13405d7f3ce18
-Author: Comet <kkituyi@hotmail.com>
-Date:   Tue Jan 1 22:16:45 2019 +0300
-
-    Fixing release builds
-
-commit 6b438c19fbc16ac31844d79892c0b1e8b989fc18
-Author: Comet <kkituyi@hotmail.com>
-Date:   Tue Jan 1 22:14:50 2019 +0300
-
-    Fixing release builds
-
-commit 2c3bfdf01547b0d21fa43716c8351e995be13ce4
-Author: Comet <kkituyi@hotmail.com>
-Date:   Mon Dec 31 00:35:00 2018 +0300
-
-    Updates to core
