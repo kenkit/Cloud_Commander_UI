@@ -1,59 +1,59 @@
-commit dc6a4271315140919c10eaa151640138e716f970
+commit 386e6400f9acf6011ff5636aeb4a9b1090749776
 Author: Comet <kkituyi@hotmail.com>
-Date:   Sat Jan 12 00:16:06 2019 +0300
+Date:   Mon Jan 14 01:35:26 2019 +0300
 
-    typo
+    cef is ok
 
-commit 64cd21cb0fe70af223788bed9fc4f41fb0897141
+commit 35ec53b64195f1f43515bceafd5c252d2bca0651
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 11 23:51:41 2019 +0300
+Date:   Mon Jan 14 01:25:31 2019 +0300
 
-    BUGS
+    find a solution to window resize
 
-commit a16fc43487ec3540de6c811349deff265874d544
+commit 4b757936a0b1cb5ff754e100bc8278b0f550b60e
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 11 23:51:21 2019 +0300
+Date:   Mon Jan 14 00:12:44 2019 +0300
 
-    BUGS
+    Almost gave up
 
-commit 613f9acf0df94a9bd8c2f00cf87d955db48e7c37
+commit 967cd1670d095f693045cb2ad6c1a8d1d51ad1aa
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 11 01:37:44 2019 +0300
+Date:   Sun Jan 13 22:31:02 2019 +0300
 
-    c libs causing bugs
+    Finnally cef works
 
-commit b7e82e901353c23425a15cc562a240bc44eab04a
+commit 7587750360d7de21c4aba64944cedf3ad73db473
 Author: Comet <kkituyi@hotmail.com>
-Date:   Wed Jan 9 15:18:32 2019 +0300
+Date:   Sun Jan 13 21:59:09 2019 +0300
 
-    fixups
+    finally, cef may have worked
 
-commit b1322c483318e1ffe705d55e08072207ce87f52b
+commit b16f902d1bc9812236e3c4b6f7adf971c5bef6af
 Author: Comet <kkituyi@hotmail.com>
-Date:   Wed Jan 9 15:08:40 2019 +0300
+Date:   Sun Jan 13 20:58:31 2019 +0300
 
-    Implement cef browser
+    fix cmake, now all builds (debug/release) work
 
-commit 4c4da3c2948244749275543494293321f97ea919
+commit 5f0b42754d249d9a2af6e96025e4b5ff1a702a7a
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 4 21:32:12 2019 +0300
+Date:   Sun Jan 13 03:15:43 2019 +0300
 
-    About:Fix author name
+    good, got rid on cef codebase, fixed  vcrt
 
-commit f2685bf8e69809c74debdd9530a9760752d0cb27
+commit adb8040c7f005913a702a7f10201abb6549926e0
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 4 18:51:37 2019 +0300
+Date:   Sun Jan 13 00:22:09 2019 +0300
 
-    Final
+    update dependancies
 
-commit c4295804997d71e68c0c967416f9eb13b05ef511
+commit e8644560b2798b0f8e8f6b136346c73f9cbce2a5
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 4 18:50:15 2019 +0300
+Date:   Sat Jan 12 23:52:23 2019 +0300
 
-    This should work for now
+    All that remains is cef
 
-commit cf6db6b1a7b86761a0afadfc976d0263e1c492d2
+commit 18d6f059b76a194907c2e02ec53b5fb3da82b457
 Author: Comet <kkituyi@hotmail.com>
-Date:   Fri Jan 4 17:38:41 2019 +0300
+Date:   Sat Jan 12 22:11:46 2019 +0300
 
-    Typo
+    update code abit, now compiles locally
