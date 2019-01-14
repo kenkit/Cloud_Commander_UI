@@ -1,3 +1,45 @@
+commit 8d110e7ad52a94096bd364bf6f9f8fde5998d6ac
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 15:18:48 2019 +0300
+
+    more work
+
+commit ef7665a65bf6988e0b96150862c6a18480cdf453
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 14:02:47 2019 +0300
+
+    Bug remains with video texture
+
+commit 83db3054cda28b401455ec8155c08bb3ca487ecf
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 12:50:35 2019 +0300
+
+    typos
+
+commit 9ea67b59babe359a44f33aa343ffcfea47802442
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 12:40:20 2019 +0300
+
+    cmake add boost|std thread
+
+commit 81ce1f4d9328d8b625652f283aae856bd965baf1
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 02:22:01 2019 +0300
+
+    will restore boost thread with macros
+
+commit 79b298ece775a163eb5cf3d920b52272dbafb223
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 02:15:42 2019 +0300
+
+    disable boost::thread
+
+commit 648a9e6a7b9286535b91b7890fec0a227a0169e4
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 02:03:02 2019 +0300
+
+    test boost rtti
+
 commit 386e6400f9acf6011ff5636aeb4a9b1090749776
 Author: Comet <kkituyi@hotmail.com>
 Date:   Mon Jan 14 01:35:26 2019 +0300
@@ -15,45 +57,3 @@ Author: Comet <kkituyi@hotmail.com>
 Date:   Mon Jan 14 00:12:44 2019 +0300
 
     Almost gave up
-
-commit 967cd1670d095f693045cb2ad6c1a8d1d51ad1aa
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Jan 13 22:31:02 2019 +0300
-
-    Finnally cef works
-
-commit 7587750360d7de21c4aba64944cedf3ad73db473
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Jan 13 21:59:09 2019 +0300
-
-    finally, cef may have worked
-
-commit b16f902d1bc9812236e3c4b6f7adf971c5bef6af
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Jan 13 20:58:31 2019 +0300
-
-    fix cmake, now all builds (debug/release) work
-
-commit 5f0b42754d249d9a2af6e96025e4b5ff1a702a7a
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Jan 13 03:15:43 2019 +0300
-
-    good, got rid on cef codebase, fixed  vcrt
-
-commit adb8040c7f005913a702a7f10201abb6549926e0
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sun Jan 13 00:22:09 2019 +0300
-
-    update dependancies
-
-commit e8644560b2798b0f8e8f6b136346c73f9cbce2a5
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sat Jan 12 23:52:23 2019 +0300
-
-    All that remains is cef
-
-commit 18d6f059b76a194907c2e02ec53b5fb3da82b457
-Author: Comet <kkituyi@hotmail.com>
-Date:   Sat Jan 12 22:11:46 2019 +0300
-
-    update code abit, now compiles locally
