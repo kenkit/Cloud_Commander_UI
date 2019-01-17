@@ -1,3 +1,15 @@
+commit 1df8bd1f1d838c7ff324b355def6bd9c0e710f13
+Author: Comet <kkituyi@hotmail.com>
+Date:   Thu Jan 17 16:40:57 2019 +0300
+
+    add cef liscence
+
+commit f5373adf58ecfea9615e040eeb0077de93920d73
+Author: Comet <kkituyi@hotmail.com>
+Date:   Mon Jan 14 18:52:08 2019 +0300
+
+    D3D11 IS best at 60fps
+
 commit 8d110e7ad52a94096bd364bf6f9f8fde5998d6ac
 Author: Comet <kkituyi@hotmail.com>
 Date:   Mon Jan 14 15:18:48 2019 +0300
@@ -45,15 +57,3 @@ Author: Comet <kkituyi@hotmail.com>
 Date:   Mon Jan 14 01:35:26 2019 +0300
 
     cef is ok
-
-commit 35ec53b64195f1f43515bceafd5c252d2bca0651
-Author: Comet <kkituyi@hotmail.com>
-Date:   Mon Jan 14 01:25:31 2019 +0300
-
-    find a solution to window resize
-
-commit 4b757936a0b1cb5ff754e100bc8278b0f550b60e
-Author: Comet <kkituyi@hotmail.com>
-Date:   Mon Jan 14 00:12:44 2019 +0300
-
-    Almost gave up
